@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Instrument+Sans:wght@400;500&display=swap">
 <title>Your Name – Projects & Skills</title>
 <style id="css">
-  
 :root{--bg:#EEF1F6;--surface:#fff;--ink:#16203A;--muted:#55607A;--accent:#2646E6;--on-accent:#fff;--line:#D5DBE8;
 --display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;--body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
 --cw:230px;--ch:290px;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
@@ -91,11 +90,35 @@ summary{cursor:pointer;font-weight:700}
 </head>
 <body>
 <div id="app"></div>
-<script id="state" type="application/json">{"name":"Fathima Riya Panali","headline":"I build practical tools that people use every day.","intro":"Full-stack developer. Drag the ring to browse my projects, or use the arrows.","email":"fathimariya.panali@gmail.com","github":"https://github.com/fathimariya2006","linkedin":"https://www.linkedin.com/in/fathima-riya-064a423b0","skills":"Frontend: HTML, CSS, JavaScript, TypeScript, React, Tailwind\nBackend and data: Node.js, Python, Google Apps Script, SQL, Firebase, REST APIs\nTools: Git, Docker, Figma, Google Sheets","pw":"","salt":"","projects":[
-{"t":"Store Inventory App","s":"Look up items and log counts","d":"A web app for stock counts. Search an item by article number or PLU, then enter the physical quantity. Data lives in Google Sheets, with Apps Script handling lookups, saving, and a login page.","tags":["Google Sheets","Apps Script","JavaScript","HTML"],"h":215,"url":"","photos":[]},
-{"t":"Habit Tracker","s":"Daily streaks, simple charts","d":"Sample project. Open the admin page to replace it with your own.","tags":["React","Firebase"],"h":160,"url":"","photos":[]},
-{"t":"Weather Dashboard","s":"Forecasts for any city","d":"Sample project. Open the admin page to replace it with your own.","tags":["JavaScript","REST APIs"],"h":28,"url":"","photos":[]},
-{"t":"Recipe Finder","s":"Search by ingredients","d":"Sample project. Open the admin page to replace it with your own.","tags":["Node.js","SQL"],"h":330,"url":"","photos":[]}]}</script>
+<script id="state" type="application/json">{"name":"Fathima Riya Panali","headline":"I build practical tools that people use every day.","intro":"Full-stack developer. Drag the ring to browse my projects, or use the arrows.","email":"fathimariya.panali@gmail.com","github":"https://github.com/fathimariya2006","linkedin":"https://www.linkedin.com/in/fathima-riya-064a423b0","skills":"Frontend: HTML, CSS, JavaScript\nProgramming: C Programming, TypeScript (Basic), Python (Learning)\nCore CS: Data Structures, Algorithms, Problem Solving\nTools: Git, GitHub, VS Code\nPersonal: Creative Thinking, Team Collaboration, Continuous Learning","pw":"","salt":"","projects":[
+  {
+    "t":"Neon Chase Sphere",
+    "s":"Interactive sphere project",
+    "d":"A project built using TypeScript.",
+    "tags":["TypeScript"],
+    "h":270,
+    "url":"https://github.com/fathimariya2006/neon-chase-sphere",
+    "photos":[]
+  },
+  {
+    "t":"Trip Planner",
+    "s":"Plan your trips",
+    "d":"A trip-planning project built using JavaScript.",
+    "tags":["JavaScript"],
+    "h":45,
+    "url":"https://github.com/fathimariya2006/trip-planner",
+    "photos":[]
+  },
+  {
+    "t":"Useless Project",
+    "s":"A creative experimental project",
+    "d":"My useless project competition project.",
+    "tags":["CSS"],
+    "h":285,
+    "url":"https://github.com/fathimariya2006/useless_project_temp",
+    "photos":[]
+  }
+]}</script>
 <script id="code">
 const S=JSON.parse(document.getElementById("state").textContent);
 const CSS=document.getElementById("css").textContent,CODE=document.getElementById("code").textContent;
